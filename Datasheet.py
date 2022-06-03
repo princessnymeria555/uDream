@@ -2,7 +2,7 @@ import cv2
 import os
 import imutils
 Name=input("Ingrese el nombre: ")
-dataPath ='C:/Users/79449/Documents/PROYECTO MICH/datasheet'
+dataPath ='D:/Semestre 1-2022/Visión Artificial/uDream'
 NamesPath = dataPath + '/' + Name
 
 if not os.path.exists(NamesPath):
